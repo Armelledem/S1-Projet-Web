@@ -19,25 +19,3 @@ document.getElementById("oui").onclick = () => {
 
 
 
-
-
-let a = "bonjour"
-let b = "hello"
-let c = "salut"
-
-function concat(a,b,c) {
-    console.log(a+b+c)
-}
-
-let array = [45,13,72,4,-2,10]
-
-function tri(array){
-    const resultat = array
-        .filter(n => n >= 10)
-        .sort((a, b) => a - b)
-    console.log(resultat)
-}
-
-tri(array)
-concat (a,b,c)
-
